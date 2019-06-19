@@ -1,0 +1,33 @@
+#container {
+    width: 700px;
+    height: 400px;
+    background-color: blanchedalmond;
+    /*border-color: ; */
+}
+
+#header {
+    width: 500px;
+    height: 100px;
+    background-color: chocolate;
+    border-style: groove;
+    border-width: 5px;
+    border-color: gray;
+}
+
+#main {
+    width: 500px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    border-style: groove;
+    border-width: 5px;
+    border-color: gray;
+}
+
+#footer {
+    width: 500px;
+    height: 100px;
+    background-color: darkorange;
+    border-style: groove;
+    border-width: 5px;
+    border-color: gray;
+}
