@@ -1,24 +1,81 @@
+body {
+    
+    background-color: black;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+}
+
 header {
     width: 700px;
-    height: 100px;
+   /* height: 100px; */
     border: 1px black dotted;
     margin-left: auto;
     margin-right: auto;
+    /* overflow: hidden; */
+    background-color: darkslateblue;
+    
+    font-family: 'Cochin', monospace;
+    color: black;
+    font-size: 20px;
+
 }
 
 main {
     width: 700px;
-    height: 500px;
+    /* height: 500px; */
     border: 1px black dotted;
     margin-left: auto;
     margin-right: auto;
+    background-color: darkslateblue;
 }
 
 footer {
     width: 700px;
-    height: 100px;
+    /* height: 100px; */
     border: 1px black dotted;
     margin-left: auto;
     margin-right: auto;
     margin: 0 auto 0 auto;
+    background-color: darkslateblue;
+
+}
+
+p { 
+    font-family: 'Gil Sans', sans-serif;
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+li {
+    font-family: monospace;
+    color: darkgreen;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 36px;
+    color: darkgray;
+    text-align: center;
+}
+
+a {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: fuchsia;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
 }
