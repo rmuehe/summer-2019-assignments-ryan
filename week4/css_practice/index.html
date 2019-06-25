@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>CSS Practice</title>
+
+
+    <!-- CSS INTERNAL STYLESHEET -->
+    <style>
+        body {
+            background-color: #bdc3c7;
+        }
+
+        main p {
+            text-decoration: underline;
+        }
+        
+        /* select all mains within all divs within body. */
+        
+        body div main p {
+            color: yellow;
+        }
+        
+        /* Direct Child Selector
+            select a main that is a direct child of div which should be a direct child of body.
+        */
+        body > div > main p {
+            color: #2980b9;
+        }
+        
+        .bolded {
+            font-weight: bold;
+        }
+        
+        #bolded {
+            font-size: 30px;
+        }
+        
+        #italicized {
+            font-style: italic;
+        }
+        
+        .odd {
+            text-decoration: underline;
+        }
+        
+        #odd1, #odd2, #odd3 {
+            text-decoration: underline;
+        }
+        
+        
+        #odd2 {}
+        
+        #odd3 {}
+
+    </style>
+
+</head>
+
+<body>
+    
+    <div></div>
+
+    <div id="container">
+
+        <header>
+            <h1>Header</h1>
+            <p>This is the <span class="bolded">header</span> section.</p>
+        </header>
+
+        <main>
+            <h1>Main</h1>
+            <p>This is the <span class="bolded">main</span> section.</p>
+            
+            <ul>
+                <li class="odd"><span class="odd">1</span>234567</li>
+                <li>2</li>
+                <li id="odd2">3</li>
+                <li>4</li>
+                <li id="odd3">5</li>
+            </ul>
+            
+        </main>
+
+        <div id="anothercontainer">
+            <main>
+                <p class="odd" id="bolded">This is something else.</p>
+            </main>
+        </div>
+
+        <footer>
+            <h1>Footer</h1>
+            <p>This is the <span id="italicized">footer</span> section.</p>
+        </footer>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>CSS Practice</title>
+
+
+    <!-- CSS INTERNAL STYLESHEET -->
+    <style>
+        
+        body{
+            background-color: #BDC3C7;
+        }
+        
+        .special {
+            font-size: 24px;
+        }
+        
+        p span.special {
+            text-decoration: underline;
+        }
+        
+        h1 span.special {
+            text-decoration: line-through underline overline;
+        }
+    </style>
+        
+</head>
+        
+<body>
+    
+    <div id="container">
+    
+        <div id="outer">
+                <div id="inner">      
+                    <p class="inner">
+                        I am inside the outer div.
+                    </p>
+                    <p class="special">
+                        I am special.
+                    </p>
+            </div>
+        </div>
+        
+        <p> 
+            Hello <span class="special">there</span>, I am a p tag.
+        </p>
+        
+        <h1>
+            How are you <span class="special">doing</span>, I am an h1 tag.
+        </h1>
+        
+    </div>
+    
+    
+</body>
