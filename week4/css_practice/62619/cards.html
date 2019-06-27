@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>CSS Practice</title>
+
+
+    <!-- CSS INTERNAL STYLESHEET -->
+    <style>
+        
+        .card {
+            width: 320px;
+            height: 445px;
+            border: 1px black solid;
+            border-radius: 20px;
+        }
+        
+        .card > p {
+            position: absolute;
+            
+            font-family: 'Arial', sans-serif;
+            font-size: 48px;
+/*            display: block;*/
+            
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+        
+        #one {
+        left: 10px;
+        top: 10px;
+        background-color: beige;
+        }
+        
+        #two {
+        left: 80px;
+        top: 80px;
+        background-color: cyan;
+        }
+        
+        #three {
+        left: 150px;
+        top: 150px;
+        background-color: pink;
+        }
+        
+    </style>
+        
+</head>
+        
+<body>
+    
+   <div id="hand">
+       
+       <div id="one" class="card"><p >A</p></div>
+       <div id="two" class="card"><p >A</p></div>
+       <div id="three" class="card"><p >A</p></div>
+       <div id="four" class="card"><p >A</p></div>
+       <div id="five" class="card"><p >9</p></div>
+    </div>
+    
+</body>
+</html>

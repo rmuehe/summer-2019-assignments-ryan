@@ -1,0 +1,130 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>CSS Practice</title>
+
+
+    <!-- CSS INTERNAL STYLESHEET -->
+    <style>
+        
+        #hand {
+            margin-top: 100px;
+        }
+        
+        .card {
+            width: 320px;
+            height: 445px;
+            border: 1px black solid;
+            border-radius: 20px;
+            position: absolute;
+            background-color: white !important;
+            margin-top: 150px;
+        }
+
+        .card>p {
+            font-family: "Arial", sans-serif;
+            font-size: 48px;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+        
+        .card img {
+            width: 30px;
+            margin-left: 20px;
+        }
+        
+        .heart img {
+            width: 30px;
+        }
+        
+        #first {
+            left: 10px;
+            top: 10px;
+            background-color: beige;
+        }
+        
+        #second {
+            left: 80px;
+            top: 80px;
+            background-color: cyan;
+        }
+        
+        #third {
+            top: 150px;
+            left: 150px;
+            background-color: pink;
+        }
+        
+        #fourth {
+            top: 220px;
+            left: 220px;
+            background-color: purple;
+        }
+        
+        #fifth {
+            top: 290px;
+            left: 290px;
+            background-color: orange;
+        }
+        
+        .red {
+            color: red;
+        }
+        
+        .black {
+            color: black;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <p>This is a poker hand</p>
+
+    <div id="hand">
+
+        <div class="card red heart" id="first">
+            <p>A</p>
+            <img src="../62719/outlinedheart.png" alt="playing card heart">
+            
+        </div>
+
+        <div class="card red" id="second">
+            <p>A</p>
+            <img src="../62719/jean_victor_balin_card_carreau.png" alt="playing card diamond" width="100px">
+            
+        </div>
+
+        <div class="card black" id="third">
+            <p>A</p>
+            <img src="../62719/jean_victor_balin_card_pique.png" alt="playing card spade">
+          
+        </div>
+
+        <div class="card red heart" id="fourth">
+            <p>A</p>
+            <img src="../62719/outlinedheart.png" alt="playing card heart">
+            
+        </div>
+
+        <div class="card black" id="fifth">
+            <p>9</p>
+            <img src="../62719/jean_victor_balin_card_trefle.png" alt="playing card club">
+            
+        </div>
+
+    </div>
+
+</body>
+
+</html>
