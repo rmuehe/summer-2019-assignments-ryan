@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Employee Table</title>
+    
+    <style>
+        .accountant {
+            color: brown;
+        }
+        
+        #ceo {
+            color: black;
+        }
+        
+        .jta {
+            color: red; 
+        }
+        
+        .se {
+            color: orange;
+        }
+        
+        .is {
+            color: aqua;
+        }
+        
+        .pss {
+            color: fuchsia;
+        }
+        
+        .sa {
+            color: purple;
+        }
+        
+        .sjd {
+            color: green;
+        }
+        
+        .rd {
+            color: aqua;
+        }
+        
+        .jd {
+            color: darkblue;
+        }
+        
+        .pl {
+            color: darkgreen;
+        }
+        
+        .cs {
+            color: darkslateblue;
+        }
+        
+        .supe {
+            color: blue;
+        }
+        
+        .coo {
+            color: yellowgreen;
+        }
+        
+        .tl {
+            color: forestgreen;
+        }
+        
+        .dev {
+            color: indigo;
+        }
+        
+        .admin {
+            color: deeppink;
+        }
+        
+        .smd {
+           color: deepskyblue;
+        }
+        
+        .sec {
+            color: maroon;
+        }
+        
+        .om {
+            color: darkgoldenrod;
+        }
+        
+        .dir {
+            color: goldenrod;
+        }
+        
+        .dl {
+            color: chartreuse;
+        }
+        
+        .jjd {
+            color: darksalmon;
+        }
+        
+        .postss {
+            color: dimgray; 
+        }
+        
+        .rm {
+            color: orangered;
+        }
+        
+        .cfo {
+            color: midnightblue;
+        }
+        
+        .md {
+            color: sienna;
+        }
+        
+        .sysa {
+            color: darkorange;
+        }
+        
+        .dc {
+            color: skyblue;
+        }
+        
+        .fc {
+            color: palegreen;
+        }
+        
+        .cmo {
+            color: cadetblue;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+<div id="container">
+<header></header>
+<main>
+
+<!-- BEGIN code from https://stackoverflow.com/questions/10683712/html-table-sort -->
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet" />
+<p>Click the <strong>table headers</strong> to sort the table accordingly:</p>
+
+<table id="usersTable" class="w3-table-all" border='1'>
+  <tr>
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(1)')" style="cursor:pointer">Name</th>
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(2)')" style="cursor:pointer">Position</th>
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(3)')" style="cursor:pointer">Office</th>
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(4)')" style="cursor:pointer">Age</th>
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(5)')" style="cursor:pointer">Start Date</th>
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(6)')" style="cursor:pointer">Salary</th>
+  </tr>
+<!-- END code from https://stackoverflow.com/questions/10683712/html-table-sort -->
+  <tr class="item accountant">
+    <td>Satou, Airi</td>
+    <td>Accountant</td>
+    <td>Tokyo</td>
+    <td>33</td>
+    <td>2008/11/28</td>
+    <td>0162000</td>
+  </tr>
+
+  <tr class="item" id="ceo">
+    <td>Ramos, Angelica</td>
+    <td>CEO</td>
+    <td>London</td>
+    <td>47</td>
+    <td>2009/10/09</td>
+    <td>1200000</td>
+  </tr>
+
+  <tr class="item jta">
+    <td>Cox, Ashton</td>
+    <td>Junior Technical Author</td>
+    <td>San Francisco</td>
+    <td>66</td>
+    <td>2009/01/12</td>
+    <td>0086000</td>
+  </tr>
+
+  <tr class="item se">
+    <td>Greer, Bradley</td>
+    <td>Software Engineer</td>
+    <td>London</td>
+    <td>41</td>
+    <td>2012/10/13</td>
+    <td>0132000</td>
+  </tr>
+
+  <tr class="item se">
+    <td>Wagner, Brenden</td>
+    <td>Software Engineer</td>
+    <td>San Francisco</td>
+    <td>28</td>
+    <td>2011/06/07</td>
+    <td>0206850</td>
+  </tr>
+
+  <tr class="item is">
+    <td>Williamson, Brielle</td>
+    <td>Integration Specialist</td>
+    <td>New York</td>
+    <td>61</td>
+    <td>2012/12/02</td>
+    <td>0372000</td>
+  </tr>
+
+  <tr class="item se">
+    <td>Nash, Bruno</td>
+    <td>Software Engineer</td>
+    <td>London</td>
+    <td>38</td>
+    <td>2011/05/03</td>
+    <td>0163500</td>
+  </tr>
+
+  <tr class="item pss">
+    <td>Vance, Caesar</td>
+    <td>Pre-Sales Support</td>
+    <td>New York</td>
+    <td>21</td>
+    <td>2011/12/12</td>
+    <td>0106450</td>
+  </tr>
+
+  <tr class="item sa">
+    <td>Stevens, Cara</td>
+    <td>Sales Assistant</td>
+    <td>New York</td>
+    <td>46</td>
+    <td>2011/12/06</td>
+    <td>0145600</td>
+  </tr>
+
+  <tr class="item sjd">
+    <td>Kelly, Cedric</td>
+    <td>Senior Javascript Developer</td>
+    <td>Edinburgh</td>
+    <td>22</td>
+    <td>2012/03/29</td>
+    <td>0433060</td>
+  </tr>
+  <tr class="item rd">
+    <td>Marshall, Charde</td>
+    <td>Regional Director</td>
+    <td>San Francisco</td>
+    <td>36</td>
+    <td>2008/10/16</td>
+    <td>0470600</td>
+  </tr>
+
+  <tr class="item jd">
+    <td>Hurst, Colleen</td>
+    <td>Javascript Developer</td>
+    <td>San Francisco</td>
+    <td>39</td>
+    <td>2009/09/15</td>
+    <td>0205500</td>
+  </tr>
+
+  <tr class="item pl">
+    <td>Rios, Dai</td>
+    <td>Personnel Lead</td>
+    <td>Edinburgh</td>
+    <td>35</td>
+    <td>2012/09/26</td>
+    <td>0217500</td>
+  </tr>
+
+  <tr class="item cs">
+    <td>Snider, Donna</td>
+    <td>Customer Support</td>
+    <td>New York</td>
+    <td>27</td>
+    <td>2011/01/25</td>
+    <td>0112000</td>
+  </tr>
+
+  <tr class="item sa">
+    <td>Wilder, Doris</td>
+    <td>Sales Assistant</td>
+    <td>Sidney</td>
+    <td>23</td>
+    <td>2010/09/20</td>
+    <td>0085600</td>
+  </tr>
+
+  <tr class="item supe">
+    <td>Camacho, Finn</td>
+    <td>Support Engineer</td>
+    <td>San Francisco</td>
+    <td>47</td>
+    <td>2009/07/07</td>
+    <td>0087500</td>
+  </tr>
+
+  <tr class="item coo">
+    <td>Green, Fiona</td>
+    <td>COO</td>
+    <td>San Francisco</td>
+    <td>48</td>
+    <td>2010/03/11</td>
+    <td>0850000</td>
+  </tr>
+
+  <tr class="item accountant">
+    <td>Winters, Garrett</td>
+    <td>Accountant</td>
+    <td>Tokyo</td>
+    <td>63</td>
+    <td>2011/07/25</td>
+    <td>0170750</td>
+  </tr>
+
+  <tr class="item tl">
+    <td>Cortez, Gavin</td>
+    <td>Team Leader</td>
+    <td>San Francisco</td>
+    <td>22</td>
+    <td>2008/10/26</td>
+    <td>0235500</td>
+  </tr>
+
+  <tr class="item dev">
+    <td>Joyce, Gavin</td>
+    <td>Developer</td>
+    <td>Edinburgh</td>
+    <td>42</td>
+    <td>2010/12/22</td>
+    <td>0092575</td>
+  </tr>
+
+  <tr class="item admin">
+    <td>Little, Gloria</td>
+    <td>Systems Administrator</td>
+    <td>New York</td>
+    <td>59</td>
+    <td>2009/04/10</td>
+    <td>0237500</td>
+  </tr>
+
+  <tr class="item smd">
+    <td>Kennedy, Haley</td>
+    <td>Senior Marketing Designer</td>
+    <td>London</td>
+    <td>43</td>
+    <td>2012/12/18</td>
+    <td>0313500</td>
+  </tr>
+
+  <tr class="item rd">
+    <td>Butler, Herminoe</td>
+    <td>Regional Director</td>
+    <td>London</td>
+    <td>47</td>
+    <td>2011/03/21</td>
+    <td>0356250</td>
+  </tr>
+
+  <tr class="item sa">
+    <td>Chandler, Herrod</td>
+    <td>Sales Assistant</td>
+    <td>San Francisco</td>
+    <td>59</td>
+    <td>2012/08/06</td>
+    <td>0137500</td>
+  </tr>
+
+  <tr class="item sec">
+    <td>Fuentes, Hope</td>
+    <td>Secretary</td>
+    <td>San Francisco</td>
+    <td>41</td>
+    <td>2010/02/12</td>
+    <td>0109850</td>
+  </tr>
+
+  <tr class="item om">
+    <td>Hatfield, Howard</td>
+    <td>Office Manager</td>
+    <td>San Francisco</td>
+    <td>51</td>
+    <td>2008/12/16</td>
+    <td>0164500</td>
+  </tr>
+
+  <tr class="item dir">
+    <td>Bradshaw, Jackson</td>
+    <td>Director</td>
+    <td>New York</td>
+    <td>65</td>
+    <td>2008/09/26</td>
+    <td>0645750</td>
+  </tr>
+
+  <tr class="item om">
+    <td>Gaines, Jena</td>
+    <td>Office Manager</td>
+    <td>London</td>
+    <td>30</td>
+    <td>2008/12/19</td>
+    <td>0090560</td>
+  </tr>
+
+  <tr class="item dl">
+    <td>Caldwell, Jenette</td>
+    <td>Development Lead</td>
+    <td>New York</td>
+    <td>30</td>
+    <td>2011/09/03</td>
+    <td>0345000</td>
+  </tr>
+
+  <tr class="item jjd">
+    <td>Acosta, Jennifer</td>
+    <td>Junior Javascript Developer</td>
+    <td>Edinburgh</td>
+    <td>43</td>
+    <td>2013/02/01</td>
+    <td>0075650</td>
+  </tr>
+
+  <tr class="item rd">
+    <td>Chang, Jennifer</td>
+    <td>Regional Director</td>
+    <td>Singapore</td>
+    <td>28</td>
+    <td>2010/11/14</td>
+    <td>0357650</td>
+  </tr>
+
+  <tr class="item dev">
+    <td>Alexander, Jonas</td>
+    <td>Developer</td>
+    <td>San Francisco</td>
+    <td>30</td>
+    <td>2010/07/14</td>
+    <td>0086500</td>
+  </tr>
+
+  <tr class="item admin">
+    <td>Greer, Lael</td>
+    <td>Systems Administrator</td>
+    <td>London</td>
+    <td>21</td>
+    <td>2009/02/27</td>
+    <td>0103500</td>
+  </tr>
+
+  <tr class="item postss">
+    <td>Mccray, Martena</td>
+    <td>Post-Sales Support</td>
+    <td>Edinburgh</td>
+    <td>46</td>
+    <td>2011/03/09</td>
+    <td>0324050</td>
+  </tr>
+
+  <tr class="item jd">
+    <td>Bruce, Michael</td>
+    <td>Javascript Developer</td>
+    <td>Singapore</td>
+    <td>29</td>
+    <td>2011/06/27</td>
+    <td>0183000</td>
+  </tr>
+
+  <tr class="item md">
+    <td>Silva, Michael</td>
+    <td>Marketing Designer</td>
+    <td>London</td>
+    <td>66</td>
+    <td>2012/11/27</td>
+    <td>0198500</td>
+  </tr>
+
+  <tr class="item is">
+    <td>House, Michelle</td>
+    <td>Integration Specialist</td>
+    <td>Sidney</td>
+    <td>37</td>
+    <td>2011/06/02</td>
+    <td>0095400</td>
+  </tr>
+
+  <tr class="item supe">
+    <td>Liang, Olivia</td>
+    <td>Support Engineer</td>
+    <td>Singapore</td>
+    <td>64</td>
+    <td>2011/02/03</td>
+    <td>0234500</td>
+  </tr>
+
+  <tr class="item cfo">
+    <td>Byrd, Paul</td>
+    <td>CFO</td>
+    <td>New York</td>
+    <td>64</td>
+    <td>2010/06/09</td>
+    <td>0725000</td>
+  </tr>
+
+  <tr class="item ta">
+    <td>Bartlett, Prescott</td>
+    <td>Technical Author</td>
+    <td>London</td>
+    <td>27</td>
+    <td>2011/05/07</td>
+    <td>0145000</td>
+  </tr>
+
+  <tr class="item sl">
+    <td>Flynn, Quinn</td>
+    <td>Support Lead</td>
+    <td>Edinburgh</td>
+    <td>22</td>
+    <td>2013/03/03</td>
+    <td>0342000</td>
+  </tr>
+
+  <tr class="item is">
+    <td>Davidson, Rhona</td>
+    <td>Integration Specialist</td>
+    <td>Tokyo</td>
+    <td>55</td>
+    <td>2010/10/14</td>
+    <td>0327900</td>
+  </tr>
+
+  <tr class="item supe">
+    <td>Yamamoto, Sakura</td>
+    <td>Support Engineer</td>
+    <td>Tokyo</td>
+    <td>37</td>
+    <td>2009/08/19</td>
+    <td>0139575</td>
+  </tr>
+
+  <tr class="item dc">
+    <td>Baldwin, Serge</td>
+    <td>Data Coordinator</td>
+    <td>Singapore</td>
+    <td>64</td>
+    <td>2012/04/09</td>
+    <td>0138575</td>
+  </tr>
+
+  <tr class="item rd">
+    <td>Decker, Shad</td>
+    <td>Regional Director</td>
+    <td>Edinburgh</td>
+    <td>51</td>
+    <td>2008/11/13</td>
+    <td>0183000</td>
+  </tr>
+
+  <tr class="item rm">
+    <td>Itou, Shou</td>
+    <td>Regional Marketing</td>
+    <td>Tokyo</td>
+    <td>20</td>
+    <td>2011/08/14</td>
+    <td>0163000</td>
+  </tr>
+
+  <tr class="item se">
+    <td>Frost, Sonya</td>
+    <td>Software Engineer</td>
+    <td>Edinburgh</td>
+    <td>23</td>
+    <td>2008/12/13</td>
+    <td>0103600</td>
+  </tr>
+
+  <tr class="item dev">
+    <td>Burks, Suki</td>
+    <td>Developer</td>
+    <td>London</td>
+    <td>53</td>
+    <td>2009/10/22</td>
+    <td>0114500</td>
+  </tr>
+
+  <tr class="item rd">
+    <td>Fitzpatrick, Tatyana</td>
+    <td>Regional Director</td>
+    <td>London</td>
+    <td>19</td>
+    <td>2010/03/17</td>
+    <td>0385750</td>
+  </tr>
+
+  <tr class="item dev">
+    <td>Walton, Thor</td>
+    <td>Developer</td>
+    <td>New York</td>
+    <td>61</td>
+    <td>2013/08/11</td>
+    <td>0098540</td>
+  </tr>
+
+  <tr class="item sysa">
+    <td>Nixon, Tiger</td>
+    <td>System Architect</td>
+    <td>Edinburgh</td>
+    <td>61</td>
+    <td>2011/04/25</td>
+    <td>0320080</td>
+  </tr>
+
+  <tr class="item om">
+    <td>Mooney, Timothy</td>
+    <td>Office Manager</td>
+    <td>London</td>
+    <td>37</td>
+    <td>2008/12/11</td>
+    <td>0136200</td>
+  </tr>
+
+  <tr class="item md">
+    <td>Butler, Unity</td>
+    <td>Marketing Designer</td>
+    <td>San Francisco</td>
+    <td>47</td>
+    <td>2009/12/09</td>
+    <td>0085675</td>
+  </tr>
+
+  <tr class="item fc">
+    <td>Harrell, Vivian</td>
+    <td>Financial Controller</td>
+    <td>San Francisco</td>
+    <td>62</td>
+    <td>2009/02/14</td>
+    <td>0452500</td>
+  </tr>
+
+  <tr class="item cmo">
+    <td>Berry, Yuri</td>
+    <td>CMO</td>
+    <td>New York</td>
+    <td>40</td>
+    <td>2009/06/25</td>
+    <td>0675000</td>
+  </tr>
+    
+  <tr class="item se">
+    <td>Frank, Zenaida</td>
+    <td>Software Engineer</td>
+    <td>New York</td>
+    <td>63</td>
+    <td>2010/01/04</td>
+    <td>0125250</td>
+  </tr>
+    
+  <tr class="item se">
+    <td>Serrano, Zorita</td>
+    <td>Software Engineer</td>
+    <td>San Francisco</td>
+    <td>56</td>
+    <td>2012/06/01</td>
+    <td>0115000</td>
+  </tr>
+    
+<!--
+  <tr class="item">
+    <td contenteditable="true"></td>
+    <td contenteditable="true"></td>
+    <td contenteditable="true"></td>
+    <td contenteditable="true"></td>
+    <td contenteditable="true"></td>
+    <td contenteditable="true"></td>
+  </tr>
+    
+  <tr class="item">
+    <td contenteditable="true"></td>
+    <td contenteditable="true"></td>
+    <td contenteditable="true"></td>
+    <td contenteditable="true"></td>
+    <td contenteditable="true"></td>
+    <td contenteditable="true"></td>
+  </tr>
+-->
+    
+</table>
+    
+<form>
+    First name: <input type = "text" name = "first_name" />
+    <input type = "submit" name = "submit" value = "Submit" />
+    <input type = "reset" name = "reset"  value = "Reset" />
+    <br>
+    Last name:  <input type = "text" name = "last_name" />
+    <input type = "submit" name = "submit" value = "Submit" />
+    <input type = "reset" name = "reset"  value = "Reset" />
+    <br>
+    Position:  <input type = "text" name = "position" />
+    <input type = "submit" name = "submit" value = "Submit" />
+    <input type = "reset" name = "reset"  value = "Reset" />
+    <br>
+    Office:   <input type = "text" name = "office" />
+    <input type = "submit" name = "submit" value = "Submit" />
+    <input type = "reset" name = "reset"  value = "Reset" />
+    <br>
+    Age:       <input type = "text" name = "age" />
+    <input type = "submit" name = "submit" value = "Submit" />
+    <input type = "reset" name = "reset"  value = "Reset" />
+    <br>
+    Start Date:   <input type = "text" name = "start_date" />
+    <input type = "submit" name = "submit" value = "Submit" />
+    <input type = "reset" name = "reset"  value = "Reset" />
+    <br>
+    Salary:    <input type = "text" name = "salary" />
+    <input type = "submit" name = "submit" value = "Submit" />
+    <input type = "reset" name = "reset"  value = "Reset" />
+</form>
+    
+    
+</main>
+<footer></footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,256 @@
+Ryan Muehe
+Project 4: Galleries
+7/1/19
+
+Some color ideas for already built portfolio pages:
+- keep the same brown-orange background
+- Text color should be warm and complementary.
+	- and the orange or pink I'm using already. 
+	-But I hope not to have text.
+
+
+http://merijnhos.com/
+-illustrator with a simple gallery showcasing work
+-like the spacing and no-nonsense text descriptions
+-dislike white backgrounds, makes my eyes bleed
+
+the same person's portfolio with responsive design:
+http://www.hugoandmarie.com/artist/merijn-hos/
+-like the image resizing and the nav pinned to the side
+- dislike the italicized font of the descriptions and the white background
+
+https://velvetspectrum.com/projects
+-like the black background and the lack of spacing between images, which is responsive also
+-dislike the images, but nothing else: unassuming and works.
+
+
+
+Galleries: 
+-These would be linked from the existing Projects page
+-and all have the same style
+
+(However, I ended up with galleries on 3 webpages: the Projects page, the Resistance training page, the Keto page and none have the same style, see included wireframes)
+
+A) Physical Training (a hobby page not yet drafted)
+(Gallery completed)
+
+5 things about training:
+
+1) Full Range of Motion
+2) Progressive Overload
+-Intensity:
+--limit rest intervals (HIIT)
+--increase resistance (strength training)
+--increase quantity of reps (GVT)
+--increase explosivity
+	-Control the Weight: is better for beginners
+--slow down the negative
+3) Learn How to Fail Safely
+4) Fail Safely Often
+-Anywhere from 5-15 reps
+-Or max around 30 secs
+5) Change Modality Without Results
+
+
+https://www.pexels.com/photo/woman-in-yoga-position-2417468/
+https://www.pexels.com/photo/topless-man-in-grey-shorts-931323/
+https://www.pexels.com/photo/fitness-power-man-person-17840/
+https://www.pexels.com/photo/adult-athlete-body-bodybuilding-414029/
+https://www.pexels.com/photo/photo-of-woman-doing-yoga-2294353/
+https://www.pexels.com/photo/man-using-barbell-2261482/
+https://www.pexels.com/photo/woman-doing-crossfit-2294400/
+https://www.pexels.com/photo/woman-in-black-sleeveless-crop-top-and-white-leggings-using-a-butterfly-machine-in-front-of-a-mirror-1111304/
+https://www.pexels.com/photo/topless-man-in-black-pants-running-2098007/
+https://www.pexels.com/photo/action-active-activity-adult-348489/
+
+B) Deodorant
+(Gallery update not completed)
+
+C) Pessimism
+-existing images arrayed at the top of the page
+(Gallery update not completed)
+
+D) Keto (another unmade hobby page)
+(Gallery completed)
+
+https://www.pexels.com/photo/person-slicing-meat-on-cutting-board-1881336/
+https://www.pexels.com/photo/almond-nut-organic-unshelled-1171555/
+https://www.pexels.com/photo/cooking-eggs-food-fried-eggs-236812/
+https://www.pexels.com/photo/person-holding-brown-wooden-bowl-with-vegetable-salad-inside-1260307/
+https://www.pexels.com/photo/selective-focus-photo-of-cheese-and-grater-on-plate-1435184/
+https://www.pexels.com/photo/sausages-grilling-2126578/
+
+https://www.pexels.com/photo/bowl-of-vegetables-2280620/
+https://www.pexels.com/photo/top-view-photo-of-sliced-avocado-2111987/
+
+E) People Who Stare At the Camera (joke collection of images) 
+I might make as gallery and set it to the background.
+(Not completed)
+
+https://www.pexels.com/photo/woman-lying-on-red-flowers-2235070/
+https://www.pexels.com/photo/unknown-celebrity-taking-selfie-2267088/
+https://www.pexels.com/photo/three-woman-with-face-paintings-2170387/
+https://www.pexels.com/photo/woman-in-black-bandeau-and-blue-denim-overalls-sitting-on-barrels-2238295/
+https://www.pexels.com/photo/woman-standing-with-hand-on-head-2246454/
+https://www.pexels.com/photo/man-holding-two-pink-flowers-2245100/
+https://www.pexels.com/photo/portrait-of-woman-wearing-collared-top-2240169/
+https://www.pexels.com/photo/man-in-gray-2-piece-suit-2239568/
+https://www.pexels.com/photo/woman-sitting-on-pedestrian-lane-2216567/
+https://www.pexels.com/photo/man-wearing-black-long-sleeve-shirt-2238182/
+https://www.pexels.com/photo/woman-holding-flowers-on-focus-photography-2239417/
+https://www.pexels.com/photo/photo-of-woman-in-white-and-blue-floral-shirt-and-red-short-shorts-standing-in-room-full-of-tyres-2228730/
+https://www.pexels.com/photo/woman-s-face-2146525/
+https://www.pexels.com/photo/woman-in-black-jacket-2235097/
+https://www.pexels.com/photo/woman-sitting-on-table-2173382/
+https://www.pexels.com/photo/woman-leaning-on-brown-wooden-frame-2173342/
+https://www.pexels.com/photo/woman-sitting-on-yellow-padded-chair-2229490/
+https://www.pexels.com/photo/portrait-of-man-wearing-hat-2220856/
+https://www.pexels.com/photo/four-person-sitting-on-floor-leaning-on-shutter-door-2189758/
+https://www.pexels.com/photo/photo-of-sitting-woman-holding-a-starbucks-to-go-cup-2220387/
+https://www.pexels.com/photo/selective-focus-photography-of-woman-with-face-covered-by-her-hair-2216542/
+https://www.pexels.com/photo/photo-of-woman-sitting-on-floor-leaning-on-blue-suitcases-2191040/
+https://www.pexels.com/photo/woman-sitting-outdoors-2216613/
+https://www.pexels.com/photo/woman-holding-burning-newspaper-2216527/
+https://www.pexels.com/photo/two-women-standing-wearing-dresses-2216306/
+https://www.pexels.com/photo/two-women-leaning-on-chain-link-fence-2198050/
+https://www.pexels.com/photo/woman-standing-and-putting-right-hand-near-her-chin-2156249/
+https://www.pexels.com/photo/photo-of-woman-wearing-green-shirt-2205415/
+https://www.pexels.com/photo/woman-wearing-pink-and-black-long-sleeved-shirt-and-shorts-outfit-2205126/
+https://www.pexels.com/photo/man-holding-his-face-2190377/
+https://www.pexels.com/photo/smiling-woman-wearing-orange-dress-sitting-near-flowers-2180346/
+https://www.pexels.com/photo/woman-hugging-himalayan-cat-2188791/
+https://www.pexels.com/photo/smiling-woman-wearing-red-robe-holding-white-and-yellow-bouquet-2177772/
+https://www.pexels.com/photo/photo-of-woman-wearing-checkered-jacket-2186990/
+https://www.pexels.com/photo/photo-of-woman-holding-brown-bird-2127652/
+https://www.pexels.com/photo/woman-leaning-on-wall-wearing-black-jacket-2180786/
+https://www.pexels.com/photo/woman-leaning-on-glass-wall-2126090/
+https://www.pexels.com/photo/shallow-focus-photo-of-woman-in-pink-crew-neck-shirt-wearing-heart-eyeglasses-2122953/
+https://www.pexels.com/photo/woman-holding-balloon-2177009/
+https://www.pexels.com/photo/fawn-pug-1851471/
+https://www.pexels.com/photo/man-sitting-next-to-green-plant-2183165/
+https://www.pexels.com/photo/man-with-floral-arm-tattoos-2183132/
+https://www.pexels.com/photo/woman-wearing-red-halter-dress-holding-on-rod-2182997/
+https://www.pexels.com/photo/woman-in-white-top-and-denim-jacket-2173016/
+https://www.pexels.com/photo/woman-staring-on-glasses-with-water-2186971/
+https://www.pexels.com/photo/man-sitting-pn-stool-2180895/
+https://www.pexels.com/photo/photo-of-man-wearing-fedora-2179397/
+https://www.pexels.com/photo/grayscale-photography-of-person-with-half-face-makeup-1919235/
+https://www.pexels.com/photo/woman-putting-her-both-hands-against-her-head-2177765/
+https://www.pexels.com/photo/woman-sitting-inside-vehicle-2169093/
+https://www.pexels.com/photo/close-up-photo-of-man-wearing-fedora-2126244/
+https://www.pexels.com/photo/man-wearing-grey-tuxedo-holding-american-football-2168736/
+https://www.pexels.com/photo/woman-holding-hair-in-close-up-photo-2167441/
+https://www.pexels.com/photo/man-in-brown-dress-shirt-on-focus-photography-2156842/
+https://www.pexels.com/photo/woman-with-pink-hair-pouring-nerds-candy-in-her-mouth-2156656/
+https://www.pexels.com/photo/woman-in-gray-jacket-and-blue-denim-jeans-sitting-on-gray-metal-bracket-2145978/
+https://www.pexels.com/photo/photo-of-man-wearing-blue-shirt-2118948/
+https://www.pexels.com/photo/boy-in-sweater-standing-2164895/
+https://www.pexels.com/photo/photo-of-woman-wearing-black-top-2108932/
+https://www.pexels.com/photo/woman-wearing-black-top-2147437/
+https://www.pexels.com/photo/woman-holding-flowers-2128738/
+https://www.pexels.com/photo/woman-wearing-brown-knit-sweater-2146373/
+https://www.pexels.com/photo/woman-leaning-on-the-glass-2146085/
+https://www.pexels.com/photo/selective-focus-photography-of-woman-in-blue-crop-top-standing-2130796/
+https://www.pexels.com/photo/woman-in-collared-shirt-2119735/
+https://www.pexels.com/photo/woman-wearing-jacket-2116122/
+https://www.pexels.com/photo/woman-sitting-near-plant-2120127/
+https://www.pexels.com/photo/close-up-photo-of-beautiful-woman-2118947/
+https://www.pexels.com/photo/man-holding-burning-book-2104236/
+https://www.pexels.com/photo/man-in-gray-denim-jacket-near-store-2102545/
+https://www.pexels.com/photo/person-wearing-leather-jacket-2023068/
+https://www.pexels.com/photo/grayscale-photography-of-woman-2120097/
+https://www.pexels.com/photo/woman-wearing-black-framed-eyeglasses-2118708/
+https://www.pexels.com/photo/grayscale-photography-of-man-2088366/
+https://www.pexels.com/photo/man-wearing-yellow-hijab-2097475/
+https://www.pexels.com/photo/man-stands-in-middle-of-courtyard-2072453/
+https://www.pexels.com/photo/photo-of-woman-wearing-black-dress-beside-horse-2090704/
+https://www.pexels.com/photo/animal-arabian-camel-camel-camels-1539610/
+https://www.pexels.com/photo/calico-cat-on-focus-photo-1404819/
+https://www.pexels.com/photo/smiling-woman-with-left-fingers-on-lips-2101893/
+https://www.pexels.com/photo/monochrome-photography-of-woman-wearing-fur-coat-2092302/
+https://www.pexels.com/photo/woman-standing-beside-sculpture-2090484/
+https://www.pexels.com/photo/photo-of-woman-2054200/
+https://www.pexels.com/photo/woman-with-make-up-2100650/
+https://www.pexels.com/photo/smiling-woman-wearing-blue-sleeveless-top-2090658/
+https://www.pexels.com/photo/man-and-woman-standing-next-to-each-other-2088360/
+https://www.pexels.com/photo/boy-covering-his-face-2080322/
+https://www.pexels.com/photo/photo-of-standing-woman-in-glasses-holding-hair-1930586/
+https://www.pexels.com/photo/photo-of-woman-lying-in-colorful-ball-pool-2067836/
+https://www.pexels.com/photo/man-leaning-on-lighted-wall-2062347/
+https://www.pexels.com/photo/woman-wearing-black-and-white-stripe-top-besides-brown-steel-mat-fence-2071220/
+https://www.pexels.com/photo/selective-focus-photography-of-woman-smiling-holding-green-leaf-2050992/
+https://www.pexels.com/photo/woman-wearing-black-jacket-2060948/
+https://www.pexels.com/photo/portrait-of-woman-2042958/
+https://www.pexels.com/photo/adult-black-and-white-bulldog-standing-on-grass-ground-2080851/
+https://www.pexels.com/photo/woman-in-sleeveless-top-2075673/
+https://www.pexels.com/photo/woman-with-turban-at-the-park-2073401/
+https://www.pexels.com/photo/photo-of-woman-leaning-on-pole-while-holding-molotov-cocktail-and-smoking-a-cigarette-2059104/
+https://www.pexels.com/photo/woman-in-orange-dress-2079819/
+https://www.pexels.com/photo/woman-standing-while-wearing-black-shirt-inside-kitchen-2043596/
+https://www.pexels.com/photo/woman-in-black-and-red-stripe-turtle-neck-3-4-sleeved-tops-1990215/
+https://www.pexels.com/photo/woman-wearing-pink-overcoat-and-black-inner-top-2043590/
+https://www.pexels.com/photo/selective-focus-photography-of-smiling-woman-wearing-red-hat-during-snowy-day-1381558/
+https://www.pexels.com/photo/ballerina-sitting-on-sidewalk-2076430/
+https://www.pexels.com/photo/shallow-focus-photo-of-woman-in-black-top-wearing-sunglasses-2071209/
+https://www.pexels.com/photo/woman-wearing-white-floral-blouse-2060905/
+https://www.pexels.com/photo/selective-focus-photo-of-sitting-woman-2057756/
+https://www.pexels.com/photo/woman-wearing-white-and-blue-striped-floral-tank-dress-and-black-hat-2068775/
+https://www.pexels.com/photo/gray-tabby-cat-2068250/
+https://www.pexels.com/photo/woman-covered-her-right-face-with-green-leafed-plant-2065912/
+https://www.pexels.com/photo/woman-covered-her-right-face-with-pink-doughnut-2064662/
+https://www.pexels.com/photo/man-sitting-down-2058659/
+https://www.pexels.com/photo/woman-standing-beside-green-bush-with-white-flowers-2056868/
+https://www.pexels.com/photo/adult-tiger-2055100/
+https://www.pexels.com/photo/woman-wearing-pink-eye-makeup-2044070/
+https://www.pexels.com/photo/woman-holding-black-mesh-scarf-2036650/
+https://www.pexels.com/photo/photo-of-tattooed-man-covering-eye-with-hand-2035761/
+https://www.pexels.com/photo/photo-of-smiling-bald-woman-in-pink-t-shirt-sitting-on-ground-2035420/
+https://www.pexels.com/photo/bald-woman-wearing-black-crop-top-sitting-on-grass-2035150/
+https://www.pexels.com/photo/close-up-photo-of-woman-standing-in-front-of-brown-wooden-wall-2033460/
+https://www.pexels.com/photo/close-up-photo-of-dog-2027104/
+https://www.pexels.com/photo/woman-standing-behind-green-plant-1995988/
+https://www.pexels.com/photo/man-wearing-grey-cap-2035236/
+https://www.pexels.com/photo/shallow-focus-photo-of-woman-in-white-dress-shirt-1963481/
+https://www.pexels.com/photo/man-standing-on-tiptoes-1756366/
+https://www.pexels.com/photo/person-wearing-white-knit-shirt-1975342/
+https://www.pexels.com/photo/woman-wearing-black-long-sleeved-shirt-standing-near-cactus-1957155/
+https://www.pexels.com/photo/woman-standing-near-plants-1958732/
+https://www.pexels.com/photo/man-s-face-1763852/
+https://www.pexels.com/photo/man-wearing-skull-mask-1930366/
+https://www.pexels.com/photo/woman-wearing-sunglasses-1896101/
+https://www.pexels.com/photo/woman-wearing-white-top-1906819/
+https://www.pexels.com/photo/man-standing-while-putting-left-arm-on-steel-rod-near-building-1901445/
+https://www.pexels.com/photo/photo-of-standing-woman-with-green-hair-with-both-hands-on-face-1895896/
+https://www.pexels.com/photo/woman-carrying-white-cat-1889731/
+https://www.pexels.com/photo/woman-holding-her-neck-1844253/
+https://www.pexels.com/photo/men-s-black-leather-zip-up-jacket-1036643/
+https://www.pexels.com/photo/top-view-photo-of-guys-lying-down-1869646/
+https://www.pexels.com/photo/man-sitting-near-body-of-water-1844252/
+https://www.pexels.com/photo/woman-resting-her-right-cheek-1882385/
+https://www.pexels.com/photo/man-covering-his-face-with-brown-wide-brim-fedora-hat-1881916/
+https://www.pexels.com/photo/woman-wearing-black-lace-top-and-hat-1858250/
+https://www.pexels.com/photo/women-s-red-and-black-sleeveless-top-1814516/
+https://www.pexels.com/photo/photo-of-woman-holding-her-hair-1820978/
+https://www.pexels.com/photo/photo-of-woman-in-black-hat-and-neck-scarf-posing-1800458/
+https://www.pexels.com/photo/woman-in-black-floral-lace-top-1755816/
+https://www.pexels.com/photo/woman-holding-single-cigarette-1756409/
+https://www.pexels.com/photo/close-up-view-of-man-s-face-1756390/
+https://www.pexels.com/photo/selective-focus-photography-of-man-s-face-1756719/
+https://www.pexels.com/photo/man-wearing-shirt-and-leaning-on-the-gate-1757037/
+https://www.pexels.com/photo/woman-wearing-green-eyeshadow-682008/
+https://www.pexels.com/photo/woman-taking-selfie-1738541/
+https://www.pexels.com/photo/man-smoking-cigarette-stick-1011529/
+https://www.pexels.com/photo/photo-of-man-wearing-fake-mustache-and-in-red-and-blue-zip-up-jacket-1723265/
+https://www.pexels.com/photo/woman-hiding-behind-plants-1734229/
+https://www.pexels.com/photo/close-up-photo-of-woman-wearing-eyeglasses-1694991/
+https://www.pexels.com/photo/woman-with-hand-on-chin-1588046/
+https://www.pexels.com/photo/woman-wearing-dungarees-sitting-on-wooden-stool-1689923/
+https://www.pexels.com/photo/close-up-photo-of-woman-wearing-straw-hat-1537012/
+https://www.pexels.com/photo/smiling-girl-1262287/
+https://www.pexels.com/photo/man-standing-in-front-of-white-wall-1498335/
+https://www.pexels.com/photo/woman-wearing-green-and-white-sports-helmet-1472854/
+https://www.pexels.com/photo/woman-in-black-plunging-neckline-top-holding-her-arm-1472858/
+https://www.pexels.com/photo/woman-wearing-black-scoop-neck-top-1473061/
+https://www.pexels.com/photo/woman-and-man-hugging-each-other-1468063/
+https://www.pexels.com/photo/woman-sitting-inside-grocery-cart-1475396/
+

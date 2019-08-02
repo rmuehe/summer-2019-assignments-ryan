@@ -1,0 +1,230 @@
+/* Main Styles */
+body {
+    background-color: #261A0D;
+    /* background-image: url(../images/bg.jpg);
+    background-size: cover; */
+}
+
+header {
+    width: 700px;
+    border: 1px black solid;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #261A0D;
+    
+    font-family: 'Cochin', monospace;
+    color: #F44A52;
+    font-size: 20px;
+    text-align: left;
+}
+
+main {
+    width: 700px;
+    border: 1px black solid;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #402626;
+    /*clear: both; */
+}
+
+footer {
+    width: 700px;
+    border: 1px black solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto 0 auto;
+    background-color: #2F1D30;
+    text-align: center;
+    color: #F47000;
+}
+
+#container {
+    background-color: #261A0D;
+    opacity: 1;
+    border-radius: 10px;
+}
+#container header, main, footer {
+    box-shadow: -3px 0px 5px 3px rgba(0,0,0,0.3);
+}
+
+/* Main Styles END */
+
+/* Text Styles */
+p, li, a { 
+    font-family: 'Gil Sans', sans-serif;
+    color: #D66857;
+    font-size: 20px;
+}
+nav {
+    border: solid 1px #602020;
+    background-color: #301D1D;
+}
+
+ul {
+    padding: 0;
+    margin: 10px auto 10px 0;  
+}
+
+li {
+    color: aqua;
+	display: inline;
+	width: 150px;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.intense {
+    color: #D66857;
+	display: block;
+	width: 600px;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 5px;
+    
+}
+
+
+h1 {
+    font-family: 'Papyrus', 'Helvetica', 'Fantasy', Fantasy, Monospace;
+    font-size: 56px;
+    color: #D66857;
+    text-align: left;
+    margin: 75px 0 5px 30px;
+}
+
+h2 {
+    font-family: 'Papyrus', 'Helvetica', 'Fantasy', Fantasy, Monospace;
+    font-size: 24px;
+    color: rgb(237, 95, 142);
+    text-align: left;
+    margin: 30px 0 0 30px;
+    
+}
+
+h3 {
+    font-family: 'Papyrus', 'Helvetica', 'Fantasy', Fantasy, Monospace;
+    font-size: 20px;
+    color: rgb(237, 95, 142);
+    text-align: left;
+    margin: 30px 0 0 30px;
+    
+}
+
+
+a {
+    color: pink;
+    text-decoration: none;
+}
+
+#copyright { 
+    color: #D66857;
+    font-family: 'Papyrus', 'Helvetica', monospace;
+    margin: 10px;
+}
+
+.content {
+    margin: 10px 30px 15px 30px;
+}
+
+.content #github, .content #email, .content #pdflink  {margin: 10px;}
+
+/* Text Styles END */
+
+/* Image Styles */
+#intro-image {
+    text-align: center;
+}
+
+
+#intro-image img {
+    width: 500px;
+    border-radius: 5px;
+}
+
+#intro-image #skull {
+    width: 500px;
+    border-radius: 50%;
+    opacity: .5;
+}
+
+.content img {
+    float: right;
+    margin: 0 5px 0 0;
+}
+
+#sic {
+    float: right;
+    margin: 9px 70px 9px 70px;
+}
+
+.content #git, .content #gmail, .content #pdf {
+    float: left;
+    margin: 0;
+}
+
+.content .pessimism, .content .deodorant, .content .training, .content .keto, .content #handstand {
+    float: left;
+} 
+
+#yoga {
+    float: right;
+    width: 200px;
+    flex-grow: 0.5;
+} 
+
+#handstand {
+    float: left;
+    width: 200px;
+    flex-grow: 0.5;
+} 
+
+#train1, #train2, #keto {
+/*    margin: 10px 30px 15px 30px;*/
+    display: flex;
+    max-width: 700px;
+}
+
+#train1 {
+    flex-direction: row-reverse;
+}
+#train1 img, #train2 img {
+    max-width: 87.5px;
+}
+
+.train1 #yoga, .train1 #handstand {
+    flex-grow: 0.5;
+}
+
+.keto1 {
+    max-height: 213px;
+    max-width: 160px;
+}
+
+.keto2 {
+    max-height: 110px;
+    max-width: 170px;
+}
+
+/* Image Styles END */
+
+/* Anchor Pseudo Classes */
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: #F44850;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+/* Anchor Pseudo Classes END */
+
+
